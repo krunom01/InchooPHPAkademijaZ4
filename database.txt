@@ -1,0 +1,12 @@
+create database Employee default character set utf8;
+
+use Employee;
+
+create table employee(
+id int not null primary key auto_increment,
+firstName varchar(50) not null,
+lastName varchar(50) not null,
+birthDate date not null,
+gender char(1),
+salary decimal(10,2) not null
+);
