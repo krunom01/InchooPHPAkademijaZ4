@@ -9,5 +9,8 @@ $DBdata = array(
     'host'=>'localhost',
     'dbname'=>'employee',
     'user'=>'kruno',
-    'password'=>'xxxxxx'
+    'password'=>'kruno031'
 );
+
+
+
