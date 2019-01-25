@@ -18,20 +18,24 @@ class DB
 
     public function __construct()
     {
-            $this->PDO = new PDO('mysql:host='.$this->host.';dbname='.$this->dbname, $this->username, $this->password);
+        $this->PDO = new PDO('mysql:host=' . $this->host . ';dbname=' . $this->dbname, $this->username, $this->password);
     }
+
     public static function instance()
     {
-        if(!self::$instance){ //check if class DB is already created,if not,create new one.
+        if (!self::$instance) { //check if class DB is already created,if not,create new one.
             self::$instance = new DB();
         }
         return self::$instance;
     }
-    public function connection(){
+
+    public function connection()
+    {
         return $this->PDO;
     }
 
 }
+
 
 
 
