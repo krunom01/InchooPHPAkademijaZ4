@@ -7,42 +7,25 @@
  */
 
 
-abstract class Person
-{
-    protected $id;
+class Person{
+
     private $firstName;
     private $lastName;
+    public static $id = 0;
 
-    public function setId($id)
-    {
-        $this->id = $id;
-    }
-
-    public function getId()
-    {
-        return $this->id;
-    }
-
-    public function setFirstName($firstName)
-    {
+    public function __construct($firstName, $lastName ) {
         $this->firstName = $firstName;
-    }
-
-    public function getFirstName()
-    {
-        return $this->firstName;
-    }
-
-    public function setLastName($lastName)
-    {
         $this->lastName = $lastName;
+        self::$id++;
     }
-
-    public function getLastName()
-    {
-        return $this->lastName;
-    }
-
-
-
 }
+
+$p = new Person("kruno","marijanovic");
+echo Person::$id;
+$p = new Person("asd","asd");
+echo Person::$id;
+$p = new Person("asd","asd");
+echo Person::$id;
+var_dump($p);
+
+
