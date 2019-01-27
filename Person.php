@@ -30,8 +30,9 @@ class Person
 function createPerson($name, $lastname)
 {
     $person = new Person($name, $lastname);
+    var_dump($person);
 
 }
 
-createPerson("kruno", "marijanovic");
-createPerson("kruno", "marijanovic");
+
+
