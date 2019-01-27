@@ -7,25 +7,31 @@
  */
 
 
-class Person{
-
+class Person
+{
+    protected static $instances = 0;
+    private $id = null;
     private $firstName;
     private $lastName;
-    public static $id = 0;
 
-    public function __construct($firstName, $lastName ) {
+
+
+    public function __construct($firstName, $lastName)
+    {
         $this->firstName = $firstName;
         $this->lastName = $lastName;
-        self::$id++;
+        $this->id = ++self::$instances;
     }
+
+
 }
 
-$p = new Person("kruno","marijanovic");
-echo Person::$id;
-$p = new Person("asd","asd");
-echo Person::$id;
-$p = new Person("asd","asd");
-echo Person::$id;
-var_dump($p);
 
+function createPerson($name, $lastname)
+{
+    $person = new Person($name, $lastname);
 
+}
+
+createPerson("kruno", "marijanovic");
+createPerson("kruno", "marijanovic");
