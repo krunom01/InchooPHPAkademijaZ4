@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c5ba1d7-2106-4a93-bbf4-60a07f2f3150" name="Default Changelist" comment="">
+    <list default="true" id="8c5ba1d7-2106-4a93-bbf4-60a07f2f3150" name="Default Changelist" comment="adding function to case 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/Person.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +51,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+            <state relative-caret-position="270">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Person.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="510">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -164,7 +165,7 @@
       <workItem from="1548424230769" duration="163000" />
       <workItem from="1548425340225" duration="1846000" />
       <workItem from="1548429747490" duration="731000" />
-      <workItem from="1548539645170" duration="9319000" />
+      <workItem from="1548539645170" duration="13779000" />
     </task>
     <task id="LOCAL-00001" summary="readme.md">
       <created>1548364989345</created>
@@ -229,11 +230,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548548812562</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="auto increment id">
+      <created>1548549035770</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1548549035770</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adding function to case 1">
+      <created>1548549501043</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1548549501043</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32965000" />
+    <option name="totallyTimeSpent" value="37425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1333" height="1025" extended-state="6" />
@@ -276,7 +291,8 @@
     <MESSAGE value="oop" />
     <MESSAGE value="auto increment id in class Person" />
     <MESSAGE value="auto increment id" />
-    <option name="LAST_COMMIT_MESSAGE" value="auto increment id" />
+    <MESSAGE value="adding function to case 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding function to case 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="uml://DATABASE/480dff7c-2e7a-49c5-8b8d-eb815c208490.TABLE:employee.employee">
@@ -347,17 +363,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/Person.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        <state relative-caret-position="510">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Person.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="270">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>

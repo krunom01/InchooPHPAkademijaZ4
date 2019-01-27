@@ -22,6 +22,10 @@ class Person
         $this->lastName = $lastName;
         $this->id = ++self::$instances;
     }
+    public function __toString()
+    {
+        return $this->id . ' '. $this->firstName . ' ' . $this->lastName;
+    }
 
 
 }
@@ -31,8 +35,9 @@ function createPerson($name, $lastname)
 {
     $person = new Person($name, $lastname);
     var_dump($person);
-
 }
+
+
 
 
 
