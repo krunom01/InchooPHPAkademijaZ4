@@ -103,7 +103,29 @@ while( true ) {
             }
         case 6:
             {
-                statistic($days, $c);
+                //osiguravanje da postoji jedno musko i jedno zensko za statistiku
+                foreach ($c as $key => $val) {
+                    $i = 0;
+                    $j = 0;
+                    foreach ($val as $subkey => $subval) {
+
+                        if($subval->getGender() === "M"){
+                            $i++;
+                        }
+                        if($subval->getGender() === "F"){
+                            $j++;
+                        }
+
+                    }
+                }
+
+                if($i > 0 and $j > 0){
+                    statistic($days, $c);
+                }
+                else{
+
+                    echo "nema dovoljno osoba za statistiku. unite po jedno musko i jedno zensko";
+                }
                 break;
             }
         default:

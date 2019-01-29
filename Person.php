@@ -256,6 +256,3 @@ function statistic($days, $c)
 
 
 
-
-
-

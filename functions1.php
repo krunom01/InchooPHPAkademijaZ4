@@ -108,8 +108,5 @@ function setPerson($name, $lastName, $birthDate, $gender, $salary)
     global $c;
     $c->addItem(new Person($name, $lastName, $birthDate, $gender, $salary));
 }
-setPerson("kruno", "marijanovic", "12.12.2000", "M", "4500.00");
-setPerson("vedran", "peric", "12.12.1946", "M", "7500.00");
-setPerson("marija", "marijanovic", "12.12.1998", "F", "8500.00");
-setPerson("josipa", "marijanovic", "12.12.1975", "M", "3500.00");
+
 
