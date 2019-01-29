@@ -1,7 +1,7 @@
 <?php
 
 require 'Person.php';
-require 'functions.php';
+require 'functions1.php';
 
 while( true ) {
 
